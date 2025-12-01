@@ -1,0 +1,24 @@
+# FastAPI & server
+fastapi>=0.110,<1
+uvicorn[standard]>=0.22,<1
+python-multipart>=0.0.9,<1
+
+# Core utils
+pillow>=10,<12
+numpy>=1.26,<3
+tqdm>=4.66,<5
+python-dotenv>=1.0,<2
+httpx>=0.27,<1
+openai>=1.0,<2
+colorspacious>=1.1,<2
+
+# TTS + Dictionary
+nltk>=3.8,<4               # optional WordNet support for local dev
+gtts>=2.3.1,<3             # TTS (no OS-level engine needed)
+
+# Translate
+deep-translator>=1.11,<2
+
+# Auth/DB
+SQLAlchemy>=2.0,<3
+psycopg2-binary>=2.9,<3
